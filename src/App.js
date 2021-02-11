@@ -5,14 +5,6 @@ import Home from './Home'
 
 
 function App() {
-  const [showModal,setShowModal] = useState(false);
-  const [showSidebar,setShowSidebar] = useState(false);
-  const toggleShowModal = () => {
-    setShowModal(!showModal)
-  }
-  const toggleShowSidebar = () => {
-    setShowSidebar(!showSidebar)
-  }
   return (
       <>
         <Home />
